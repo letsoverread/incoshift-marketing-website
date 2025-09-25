@@ -1,0 +1,410 @@
+{
+  "en": {
+    "home": {
+      "hero": {
+        "title": "Modern Website Design",
+        "subtitle": "Trusted partner in creating professional websites, where every interface is designed to tell your brand story in the most engaging way.",
+        "cta": "Explore"
+      },
+      "testimonials": {
+        "badge": "Testimonial",
+        "title": "What clients say about IncoShift",
+        "subtitle": "Real experiences from partners and clients when working with us."
+      },
+      "testimonialsData": [
+        {
+          "quote": "IncoShift transformed our digital presence with a stunning website that perfectly captures our brand essence. The attention to detail and user experience is exceptional.",
+          "name": "Nam Nguyen",
+          "designation": "CEO, Aftergates",
+          "src": "/src/assets/aftergates.png"
+        },
+        {
+          "quote": "Working with IncoShift was a game-changer for our business. They delivered a modern, responsive website that significantly boosted our online engagement and sales.",
+          "name": "Cuong Nguyen",
+          "designation": "Founder, Afterbeans",
+          "src": "/src/assets/afterbeans.png"
+        },
+        {
+          "quote": "IncoShift's expertise in web design and development is unmatched. They created a seamless digital experience that perfectly represents our innovative approach to business.",
+          "name": "Brandon Nguyen",
+          "designation": "CEO, Inconverge",
+          "src": "/src/assets/inconverge.png"
+        },
+        {
+          "quote": "The team at IncoShift exceeded our expectations with their professional approach and cutting-edge solutions. Our new website has become a powerful tool for growth.",
+          "name": "Harry Nguyen",
+          "designation": "Founder, Overread",
+          "src": "/src/assets/overread.png"
+        }
+      ]
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "We are passionate about creating exceptional digital experiences"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive solutions for your digital needs"
+    },
+    "navigation": {
+      "about": "About us",
+      "services": "Services",
+      "how": "How it works",
+      "blog": "Blog"
+    },
+    "aboutSection": {
+      "badge": "About us",
+      "description": "IncoShift delivers end-to-end digital solutions from websites to marketing, helping brands expand their customer base and build trust. We focus on clarity, practicality, and scalability to save your team's time.",
+      "webPackage": {
+        "title": "Website Package: Optimized Solution",
+        "features": [
+          "Modern, beautiful, UX/UI-ready websites tailored to your brand",
+          "Smooth display on all devices (PC, tablet, mobile)",
+          "Pre-built template library for fast and convenient rollout"
+        ],
+        "tags": ["UX/UI", "Responsive", "SEO", "High performance"]
+      },
+      "marketing": {
+        "title": "Marketing for Businesses – Full-service Partner",
+        "features": [
+          "Professional videography and photography to elevate brand image",
+          "Copywriting for posts, blogs, and multi-platform ads",
+          "Efficient social media management and digital ads execution"
+        ],
+        "tags": ["Content", "Social Media", "Digital Ads", "Branding"]
+      },
+      "cta": "Learn more",
+      "imageAlt": "About us"
+    },
+    "servicesSection": {
+      "badge": "Services",
+      "title": "IncoShift Services",
+      "subtitle": "Right-fit solutions that help brands grow sustainably.",
+      "cards": [
+        {
+          "title": "Rapid launch with template library",
+          "bullets": [
+            "Modern, easy-to-choose templates in diverse styles",
+            "Cost-effective, fast rollout, streamlined handover",
+            "Optimized for all devices"
+          ],
+          "cta": "Explore Templates",
+          "imageAlt": "Template websites"
+        },
+        {
+          "title": "Custom Website Design",
+          "bullets": [
+            "Exclusive design reflecting your brand identity",
+            "Smooth site navigation to boost user satisfaction",
+            "Long-term maintenance & support with an accompanying team"
+          ],
+          "cta": "Get Custom Quote",
+          "imageAlt": "Custom design"
+        },
+        {
+          "title": "Full-funnel Marketing – Partnering Your Brand",
+          "bullets": [
+            "Create high-quality brand images & videos",
+            "Develop brand strategy with a comprehensive guideline",
+            "Launch & optimize multi-channel ad campaigns"
+          ],
+          "cta": "Consult Marketing Package",
+          "imageAlt": "Full-service marketing"
+        }
+      ]
+    },
+    "howItWorksSection": {
+      "badge": "Process",
+      "title": "How we work with you",
+      "subtitle": "A structured approach to deliver exceptional results that drive your business forward.",
+      "cta": "Start your project with us",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Understand Your Business",
+          "description": "We dive deep into your business to create the perfect foundation for success.",
+          "details": [
+            "Discuss goals and expectations",
+            "Analyze industry, products, competitors, and target customers",
+            "Collect existing brand assets (logo, visuals, content)"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Define Solutions",
+          "description": "Strategic planning and roadmap creation tailored to your specific needs.",
+          "details": [
+            "Draft website structure or marketing plan (sitemap, wireframe, content plan)",
+            "Recommend tailored design, interface, and features",
+            "Refine the implementation approach and build a clear roadmap"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Execute & Deliver",
+          "description": "Professional execution with attention to detail and quality standards.",
+          "details": [
+            "Design and develop the website / produce marketing content",
+            "Integrate tools & features, optimize user experience",
+            "Provide full handover with usage guidance, ready to operate"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Ongoing Support",
+          "description": "Long-term partnership to ensure continued success and growth.",
+          "details": [
+            "Technical maintenance and on-demand assistance",
+            "Performance tracking and continuous optimization",
+            "Strategic partnership to scale and grow with your business"
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "companyName": "IncoShift",
+      "description": "Web design agency crafting modern, high-converting websites.",
+      "services": {
+        "title": "Services",
+        "webDesign": "Web Design & Development",
+        "uiUx": "UI/UX Design",
+        "ecommerce": "E-commerce Websites",
+        "maintenance": "Website Care & Maintenance"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About Us",
+        "portfolio": "Portfolio",
+        "careers": "Careers",
+        "contact": "Contact"
+      },
+      "resources": {
+        "title": "Resources",
+        "blog": "Blog",
+        "faqs": "FAQs",
+        "pricing": "Pricing",
+        "support": "Support"
+      },
+      "getInTouch": {
+        "title": "Get in touch",
+        "description": "Need a high-converting website? Let's talk about your project.",
+        "cta": "Book a consultation"
+      },
+      "copyright": "All rights reserved.",
+      "legal": {
+        "title": "Legal",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "contact": "Contact",
+        "support": "Support"
+      },
+      "bottom": {
+        "developedBy": "Developed by IncoShift"
+      }
+    }
+  },
+  "vi": {
+    "home": {
+      "hero": {
+        "title": "Thiết Kế Website Hiện Đại",
+        "subtitle": "Đối tác tin cậy trong việc kiến tạo website chuyên nghiệp, nơi mỗi giao diện đều được thiết kế để kể câu chuyện thương hiệu của bạn một cách cuốn hút nhất.",
+        "cta": "Khám phá"
+      },
+      "testimonials": {
+        "badge": "Testimonial",
+        "title": "Khách hàng nói gì về IncoShift",
+        "subtitle": "Trải nghiệm thực tế từ đối tác và khách hàng khi đồng hành cùng chúng tôi."
+      },
+      "testimonialsData": [
+        {
+          "quote": "IncoShift đã thay đổi hoàn toàn sự hiện diện kỹ thuật số của chúng tôi với một website tuyệt đẹp, thể hiện hoàn hảo bản chất thương hiệu. Sự chú ý đến từng chi tiết và trải nghiệm người dùng thật xuất sắc.",
+          "name": "Nam Nguyen",
+          "designation": "CEO, Aftergates",
+          "src": "/src/assets/aftergates.png"
+        },
+        {
+          "quote": "Làm việc với IncoShift đã thay đổi hoàn toàn doanh nghiệp của chúng tôi. Họ đã tạo ra một website hiện đại, responsive giúp tăng đáng kể sự tương tác trực tuyến và doanh số bán hàng.",
+          "name": "Cuong Nguyen",
+          "designation": "Founder, Afterbeans",
+          "src": "/src/assets/afterbeans.png"
+        },
+        {
+          "quote": "Chuyên môn của IncoShift trong thiết kế và phát triển web là vô song. Họ đã tạo ra một trải nghiệm kỹ thuật số liền mạch, thể hiện hoàn hảo cách tiếp cận kinh doanh sáng tạo của chúng tôi.",
+          "name": "Brandon Nguyen",
+          "designation": "CEO, Inconverge",
+          "src": "/src/assets/inconverge.png"
+        },
+        {
+          "quote": "Đội ngũ IncoShift đã vượt quá mong đợi của chúng tôi với cách tiếp cận chuyên nghiệp và các giải pháp tiên tiến. Website mới của chúng tôi đã trở thành một công cụ mạnh mẽ cho sự phát triển.",
+          "name": "Harry Nguyen",
+          "designation": "Founder, Overread",
+          "src": "/src/assets/overread.png"
+        }
+      ]
+    },
+    "about": {
+      "title": "Về Chúng Tôi",
+      "subtitle": "Chúng tôi đam mê tạo ra những trải nghiệm kỹ thuật số đặc biệt"
+    },
+    "services": {
+      "title": "Dịch Vụ Của Chúng Tôi",
+      "subtitle": "Giải pháp toàn diện cho nhu cầu kỹ thuật số của bạn"
+    },
+    "navigation": {
+      "about": "Về chúng tôi",
+      "services": "Dịch vụ",
+      "how": "Cách thức hoạt động",
+      "blog": "Blog"
+    },
+    "aboutSection": {
+      "badge": "Về chúng tôi",
+      "description": "IncoShift mang đến giải pháp số toàn diện từ website đến marketing, giúp thương hiệu mở rộng khách hàng và xây dựng uy tín. Chúng tôi chú trọng sự rõ ràng, dễ ứng dụng và khả năng mở rộng, để tiết kiệm thời gian cho doanh nghiệp.",
+      "webPackage": {
+        "title": "Gói dịch vụ Website: Giải pháp tối ưu",
+        "features": [
+          "Website hiện đại, đẹp mắt, chuẩn UX/UI, tùy chỉnh theo thương hiệu",
+          "Hiển thị mượt mà trên mọi thiết bị (PC, tablet, mobile)",
+          "Thư viện website mẫu sẵn, triển khai nhanh chóng và tiện lợi"
+        ],
+        "tags": ["UX/UI", "Responsive", "SEO", "Hiệu suất cao"]
+      },
+      "marketing": {
+        "title": "Marketing cho doanh nghiệp – Đồng hành trọn gói",
+        "features": [
+          "Quay phim, chụp hình chuyên nghiệp để nâng tầm hình ảnh thương hiệu",
+          "Viết nội dung cho bài post, blog, quảng cáo đa nền tảng",
+          "Quản lý & triển khai social media, digital ads hiệu quả"
+        ],
+        "tags": ["Content", "Social Media", "Digital Ads", "Branding"]
+      },
+      "cta": "Tìm hiểu thêm",
+      "imageAlt": "Về chúng tôi"
+    },
+    "servicesSection": {
+      "badge": "Dịch vụ",
+      "title": "Dịch vụ của IncoShift",
+      "subtitle": "Giải pháp phù hợp giúp thương hiệu tăng trưởng bền vững.",
+      "cards": [
+        {
+          "title": "Triển khai nhanh với thư viện Website mẫu",
+          "bullets": [
+            "Thư viện mẫu sẵn hiện đại, dễ chọn lựa, đa dạng phong cách",
+            "Giải pháp tiết kiệm, triển khai nhanh chóng, Bàn giao tinh gọn",
+            "Tối ưu hiển thị trên mọi thiết bị"
+          ],
+          "cta": "Khám phá Website Mẫu",
+          "imageAlt": "Website mẫu"
+        },
+        {
+          "title": "Thiết kế Website Theo Yêu Cầu",
+          "bullets": [
+            "Thiết kế Độc quyền, thể hiện bản sắc thương hiệu.",
+            "Điều hướng website mượt mà, tăng sự hài lòng của người dùng.",
+            "Thời gian bảo trì & hỗ trợ dài hạn, team đồng hành chỉnh sửa khi cần."
+          ],
+          "cta": "Nhận Báo Giá Custom",
+          "imageAlt": "Thiết kế theo yêu cầu"
+        },
+        {
+          "title": "Marketing Trọn Gói – Đồng Hành Cùng Thương Hiệu",
+          "bullets": [
+            "Tạo dựng hình ảnh & video chất lượng cao cho thương hiệu",
+            "Phát triển chiến lược thương hiệu với bộ guideline toàn diện",
+            "Triển khai & tối ưu chiến dịch quảng cáo đa kênh"
+          ],
+          "cta": "Tư Vấn Gói Marketing",
+          "imageAlt": "Marketing trọn gói"
+        }
+      ]
+    },
+    "howItWorksSection": {
+      "badge": "Quy trình",
+      "title": "Cách chúng tôi làm việc với bạn",
+      "subtitle": "Một cách tiếp cận có cấu trúc để mang lại kết quả xuất sắc, thúc đẩy doanh nghiệp của bạn phát triển.",
+      "cta": "Bắt đầu dự án cùng chúng tôi",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Hiểu Rõ Doanh Nghiệp Của Bạn",
+          "description": "Chúng tôi đi sâu vào doanh nghiệp của bạn để tạo nền tảng hoàn hảo cho sự thành công.",
+          "details": [
+            "Thảo luận mục tiêu và kỳ vọng",
+            "Phân tích ngành, sản phẩm, đối thủ cạnh tranh và khách hàng mục tiêu",
+            "Thu thập tài sản thương hiệu hiện có (logo, hình ảnh, nội dung)"
+          ]
+        },
+        {
+          "number": "02",
+          "title": "Định Nghĩa Giải Pháp",
+          "description": "Lập kế hoạch chiến lược và tạo lộ trình phù hợp với nhu cầu cụ thể của bạn.",
+          "details": [
+            "Dự thảo cấu trúc website hoặc kế hoạch marketing (sitemap, wireframe, kế hoạch nội dung)",
+            "Đề xuất thiết kế, giao diện và tính năng phù hợp",
+            "Tinh chỉnh cách tiếp cận triển khai và xây dựng lộ trình rõ ràng"
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Thực Hiện & Bàn Giao",
+          "description": "Thực hiện chuyên nghiệp với sự chú ý đến từng chi tiết và tiêu chuẩn chất lượng.",
+          "details": [
+            "Thiết kế và phát triển website / sản xuất nội dung marketing",
+            "Tích hợp công cụ & tính năng, tối ưu trải nghiệm người dùng",
+            "Bàn giao đầy đủ với hướng dẫn sử dụng, sẵn sàng vận hành"
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Hỗ Trợ Liên Tục",
+          "description": "Đối tác dài hạn để đảm bảo thành công và tăng trưởng liên tục.",
+          "details": [
+            "Bảo trì kỹ thuật và hỗ trợ theo yêu cầu",
+            "Theo dõi hiệu suất và tối ưu liên tục",
+            "Đối tác chiến lược để mở rộng và phát triển cùng doanh nghiệp của bạn"
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "companyName": "IncoShift",
+      "description": "Công ty thiết kế web chuyên tạo ra những website hiện đại, chuyển đổi cao.",
+      "services": {
+        "title": "Dịch vụ",
+        "webDesign": "Thiết kế & Phát triển Website",
+        "uiUx": "Thiết kế UI/UX",
+        "ecommerce": "Website Thương mại điện tử",
+        "maintenance": "Chăm sóc & Bảo trì Website"
+      },
+      "company": {
+        "title": "Công ty",
+        "about": "Về chúng tôi",
+        "portfolio": "Portfolio",
+        "careers": "Tuyển dụng",
+        "contact": "Liên hệ"
+      },
+      "resources": {
+        "title": "Tài nguyên",
+        "blog": "Blog",
+        "faqs": "Câu hỏi thường gặp",
+        "pricing": "Bảng giá",
+        "support": "Hỗ trợ"
+      },
+      "getInTouch": {
+        "title": "Liên hệ với chúng tôi",
+        "description": "Cần một website chuyển đổi cao? Hãy thảo luận về dự án của bạn.",
+        "cta": "Đặt lịch tư vấn"
+      },
+      "copyright": "Tất cả quyền được bảo lưu.",
+      "legal": {
+        "title": "Pháp lý",
+        "privacy": "Bảo mật",
+        "terms": "Điều khoản",
+        "contact": "Liên hệ",
+        "support": "Hỗ trợ"
+      },
+      "bottom": {
+        "developedBy": "Được phát triển bởi IncoShift"
+      }
+    }
+  }
+}

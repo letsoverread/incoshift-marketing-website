@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[min(1100px,92%)]">
-        <div className="backdrop-blur-xl bg-black/20 shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-full px-5 sm:px-7 py-3 flex items-center justify-between gap-4">
+        <div className="backdrop-blur-xl bg-black/20 shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-full px-4 sm:px-6 md:px-7 lg:px-8 py-3 flex items-center justify-between gap-2 md:gap-4">
           {/* Left: Logo */}
           <a href="/" className="flex items-center gap-2 select-none">
             <div className="h-8 w-8 rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500" />
@@ -26,22 +26,28 @@ export default function Header() {
           </a>
 
           {/* Middle: Nav */}
-          <nav className="hidden md:flex items-center gap-6 text-white/90">
-            <a href="#about" className="hover:text-white transition-colors">
+          <nav className="hidden md:flex items-center gap-3 lg:gap-6 text-white/90">
+            <a
+              href="#about"
+              className="hover:text-white transition-colors text-sm lg:text-base whitespace-nowrap"
+            >
               {t("navigation.about")}
             </a>
-            <a href="#services" className="hover:text-white transition-colors">
+            <a
+              href="#services"
+              className="hover:text-white transition-colors text-sm lg:text-base whitespace-nowrap"
+            >
               {t("navigation.services")}
             </a>
             <a
               href="#how-it-works"
-              className="hover:text-white transition-colors"
+              className="hover:text-white transition-colors text-sm lg:text-base whitespace-nowrap"
             >
               {t("navigation.how")}
             </a>
             <a
               href="#testimonials"
-              className="hover:text-white transition-colors"
+              className="hover:text-white transition-colors text-sm lg:text-base whitespace-nowrap"
             >
               {t("navigation.blog")}
             </a>
@@ -73,7 +79,7 @@ export default function Header() {
 
           {/* Right: Language dropdown (hidden on mobile when burger is visible) */}
           <div
-            className="relative ml-auto md:ml-0 hidden md:block"
+            className="relative ml-auto md:ml-0 hidden md:block flex-shrink-0"
             ref={dropdownRef}
           >
             <button

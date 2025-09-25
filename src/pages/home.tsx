@@ -29,7 +29,13 @@ export default function HomePage() {
               <button
                 type="button"
                 onClick={() => {
-                  window.open("https://tally.so/r/mY2yB0", "_blank");
+                  const aboutSection = document.getElementById("about");
+                  if (aboutSection) {
+                    aboutSection.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  }
                 }}
                 className="group inline-flex items-center gap-2 rounded-full border border-white/60 bg-transparent px-6 py-3 text-base md:text-lg font-medium text-white transition-colors duration-200 hover:bg-neutral-50 hover:text-neutral-900 cursor-pointer"
               >

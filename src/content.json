@@ -16,25 +16,25 @@
           "quote": "IncoShift transformed our digital presence with a stunning website that perfectly captures our brand essence. The attention to detail and user experience is exceptional.",
           "name": "Nam Nguyen",
           "designation": "CEO, Aftergates",
-          "src": "/src/assets/aftergates.png"
+          "src": "/aftergates.png"
         },
         {
           "quote": "Working with IncoShift was a game-changer for our business. They delivered a modern, responsive website that significantly boosted our online engagement and sales.",
           "name": "Cuong Nguyen",
           "designation": "Founder, Afterbeans",
-          "src": "/src/assets/afterbeans.png"
+          "src": "/afterbeans.png"
         },
         {
           "quote": "IncoShift's expertise in web design and development is unmatched. They created a seamless digital experience that perfectly represents our innovative approach to business.",
           "name": "Brandon Nguyen",
           "designation": "CEO, Inconverge",
-          "src": "/src/assets/inconverge.png"
+          "src": "/inconverge.png"
         },
         {
           "quote": "The team at IncoShift exceeded our expectations with their professional approach and cutting-edge solutions. Our new website has become a powerful tool for growth.",
           "name": "Harry Nguyen",
           "designation": "Founder, Overread",
-          "src": "/src/assets/overread.png"
+          "src": "/overread.png"
         }
       ]
     },
@@ -220,25 +220,25 @@
           "quote": "IncoShift đã thay đổi hoàn toàn sự hiện diện kỹ thuật số của chúng tôi với một website tuyệt đẹp, thể hiện hoàn hảo bản chất thương hiệu. Sự chú ý đến từng chi tiết và trải nghiệm người dùng thật xuất sắc.",
           "name": "Nam Nguyen",
           "designation": "CEO, Aftergates",
-          "src": "/src/assets/aftergates.png"
+          "src": "/aftergates.png"
         },
         {
           "quote": "Làm việc với IncoShift đã thay đổi hoàn toàn doanh nghiệp của chúng tôi. Họ đã tạo ra một website hiện đại, responsive giúp tăng đáng kể sự tương tác trực tuyến và doanh số bán hàng.",
           "name": "Cuong Nguyen",
           "designation": "Founder, Afterbeans",
-          "src": "/src/assets/afterbeans.png"
+          "src": "/afterbeans.png"
         },
         {
           "quote": "Chuyên môn của IncoShift trong thiết kế và phát triển web là vô song. Họ đã tạo ra một trải nghiệm kỹ thuật số liền mạch, thể hiện hoàn hảo cách tiếp cận kinh doanh sáng tạo của chúng tôi.",
           "name": "Brandon Nguyen",
           "designation": "CEO, Inconverge",
-          "src": "/src/assets/inconverge.png"
+          "src": "/inconverge.png"
         },
         {
           "quote": "Đội ngũ IncoShift đã vượt quá mong đợi của chúng tôi với cách tiếp cận chuyên nghiệp và các giải pháp tiên tiến. Website mới của chúng tôi đã trở thành một công cụ mạnh mẽ cho sự phát triển.",
           "name": "Harry Nguyen",
           "designation": "Founder, Overread",
-          "src": "/src/assets/overread.png"
+          "src": "/overread.png"
         }
       ]
     },

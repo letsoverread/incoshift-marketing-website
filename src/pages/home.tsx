@@ -6,6 +6,7 @@ import { IncoShiftAboutUs } from "@/components/incoshift-about-us";
 import { IncoShiftHowItWorks } from "@/components/incoshift-how-it-works";
 import { useI18n } from "@/contexts/I18nContext";
 import contentData from "@/content.json";
+import { CONTACT_FORM_EN, CONTACT_FORM_VI } from "@/lib/utils";
 
 export default function HomePage() {
   const { t, language } = useI18n();

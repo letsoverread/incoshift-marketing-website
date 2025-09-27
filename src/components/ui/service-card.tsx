@@ -1,3 +1,5 @@
+import { useI18n } from "@/contexts/I18nContext";
+import { CONTACT_FORM_EN, CONTACT_FORM_VI } from "@/lib/utils";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 interface ServiceCardProps {
@@ -15,6 +17,7 @@ export function ServiceCard({
   imageAlt,
   imageSrc,
 }: ServiceCardProps) {
+  const { language } = useI18n();
   return (
     <div className="group relative overflow-hidden rounded-3xl bg-neutral-900 text-neutral-100">
       {/* Always-visible on desktop; hidden on mobile/tablet */}

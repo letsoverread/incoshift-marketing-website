@@ -2,6 +2,7 @@ import { useI18n } from "@/contexts/I18nContext";
 import contentData from "@/content.json";
 import { ArrowRight } from "lucide-react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
+import { CONTACT_FORM_EN, CONTACT_FORM_VI } from "@/lib/utils";
 
 function StepCard({
   step,

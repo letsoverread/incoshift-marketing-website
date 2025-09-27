@@ -19,7 +19,12 @@ export default function Header() {
         <div className="backdrop-blur-xl bg-black/20 shadow-[0_8px_30px_rgba(0,0,0,0.12)] rounded-full px-4 sm:px-6 md:px-7 lg:px-8 py-3 flex items-center justify-between gap-2 md:gap-4">
           {/* Left: Logo */}
           <a href="/" className="flex items-center gap-2 select-none">
-            <div className="h-8 w-8 rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500" />
+            {/* Logo image */}
+            <img
+              src="/logo.png"
+              alt="IncoShift Logo"
+              className="h-8 w-8 object-contain"
+            />
             <span className="hidden sm:block font-semibold tracking-tight text-white">
               IncoShift
             </span>

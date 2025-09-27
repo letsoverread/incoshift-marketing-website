@@ -110,7 +110,7 @@ export default function Header() {
                   )}
                 </span>
                 <span className="text-sm font-medium">
-                  {language === "vi" ? "Vietnamese" : "English"}
+                  {language === "vi" ? "Tiếng Việt" : "English"}
                 </span>
               </span>
               <svg
@@ -144,7 +144,7 @@ export default function Header() {
                     className="h-4 w-6 object-cover rounded-[3px]"
                     loading="lazy"
                   />
-                  <span className="flex-1">Vietnamese</span>
+                  <span className="flex-1">Tiếng Việt</span>
                   {language === "vi" && (
                     <span aria-hidden className="text-neutral-900">
                       ✓

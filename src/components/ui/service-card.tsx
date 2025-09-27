@@ -40,7 +40,10 @@ export function ServiceCard({
               <button
                 type="button"
                 onClick={() => {
-                  window.open("https://tally.so/r/mY2yB0", "_blank");
+                  window.open(
+                    language === "vi" ? CONTACT_FORM_VI : CONTACT_FORM_EN,
+                    "_blank"
+                  );
                 }}
                 className="group/button inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-base font-medium text-neutral-900 transition-colors hover:bg-neutral-100 cursor-pointer"
               >

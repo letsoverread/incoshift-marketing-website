@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import aboutUs from "@/assets/about-us.jpg";
 import { useI18n } from "@/contexts/I18nContext";
 import contentData from "@/content.json";
+import { CONTACT_FORM_EN, CONTACT_FORM_VI } from "@/lib/utils";
 
 export function IncoShiftAboutUs() {
   const { language } = useI18n();
@@ -88,7 +89,10 @@ export function IncoShiftAboutUs() {
               <button
                 type="button"
                 onClick={() => {
-                  window.open("https://tally.so/r/mY2yB0", "_blank");
+                  window.open(
+                    language === "vi" ? CONTACT_FORM_VI : CONTACT_FORM_EN,
+                    "_blank"
+                  );
                 }}
                 className="group inline-flex items-center justify-center rounded-full px-6 py-3 border border-neutral-900 text-base font-medium bg-neutral-900 transition-colors cursor-pointer text-neutral-100"
               >

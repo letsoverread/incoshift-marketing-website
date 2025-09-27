@@ -249,7 +249,10 @@ export function IncoShiftHowItWorks() {
                 <button
                   type="button"
                   onClick={() => {
-                    window.open("https://tally.so/r/mY2yB0", "_blank");
+                    window.open(
+                      language === "vi" ? CONTACT_FORM_VI : CONTACT_FORM_EN,
+                      "_blank"
+                    );
                   }}
                   className="group inline-flex items-center justify-center rounded-full px-6 py-3 border border-neutral-900 text-base font-medium bg-neutral-900 transition-colors cursor-pointer text-neutral-100 hover:bg-neutral-800"
                 >

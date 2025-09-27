@@ -92,7 +92,10 @@ export default function HomePage() {
           </p>
           <button
             onClick={() => {
-              window.open("https://tally.so/r/mY2yB0", "_blank");
+              window.open(
+                language === "vi" ? CONTACT_FORM_VI : CONTACT_FORM_EN,
+                "_blank"
+              );
             }}
             className="group inline-flex items-center gap-2 rounded-full border border-neutral-900 dark:border-white px-6 py-3 text-base font-medium text-neutral-900 dark:text-white hover:bg-neutral-900 hover:text-white transition-colors cursor-pointer"
           >

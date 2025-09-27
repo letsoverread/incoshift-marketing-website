@@ -25,9 +25,6 @@ export default function Header() {
               alt="IncoShift Logo"
               className="h-8 w-8 object-contain"
             />
-            <span className="hidden sm:block font-semibold tracking-tight text-white">
-              IncoShift
-            </span>
           </a>
 
           {/* Middle: Nav */}

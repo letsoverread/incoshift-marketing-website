@@ -28,7 +28,7 @@ export default function Header() {
           </a>
 
           {/* Middle: Nav */}
-          <nav className="hidden md:flex items-center gap-3 lg:gap-6 text-white/90">
+          <nav className="hidden md:flex items-center gap-3 md:gap-8 text-white/90">
             <a
               href="#about"
               className="hover:text-white transition-colors text-sm lg:text-base whitespace-nowrap"

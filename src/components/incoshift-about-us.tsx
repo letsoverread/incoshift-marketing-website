@@ -24,7 +24,7 @@ export function IncoShiftAboutUs() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-6 sm:mt-14">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 overflow-hidden rounded-3xl bg-white">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 rounded-3xl bg-white">
           <div className="relative h-56 sm:h-72 md:h-80 lg:h-[700px] lg:order-2">
             <img
               src={aboutUs}

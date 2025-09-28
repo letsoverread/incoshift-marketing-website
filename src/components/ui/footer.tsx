@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { useI18n } from "@/contexts/I18nContext";
+import logo from "@/assets/logo.png";
 
 export default function Footer() {
   const { t } = useI18n();
@@ -8,6 +9,11 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
           <div className="text-center md:text-left">
+            <img
+              src={logo}
+              alt={t("footer.companyName")}
+              className="h-12 w-auto mx-auto md:mx-0 mb-3"
+            />
             <h3 className="text-xl font-semibold text-neutral-900 dark:text-neutral-100">
               {t("footer.companyName")}
             </h3>

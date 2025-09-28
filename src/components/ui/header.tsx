@@ -22,7 +22,7 @@ export default function Header() {
             {/* Logo image */}
             <img
               src="/logo.png"
-              alt="IncoShift Logo"
+              alt="Incoshift Logo"
               className="h-8 w-8 object-contain"
             />
           </a>

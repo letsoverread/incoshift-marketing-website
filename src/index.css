@@ -127,4 +127,7 @@
       Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
       sans-serif;
   }
+  section {
+    @apply mb-12 sm:mb-16 md:mb-18 lg:mb-28;
+  }
 }

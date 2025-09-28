@@ -1,23 +1,48 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, ArrowRight } from "lucide-react";
 import { useI18n } from "@/contexts/I18nContext";
 import logo from "@/assets/logo.png";
+import { CONTACT_FORM_EN, CONTACT_FORM_VI } from "@/lib/utils";
 
 export default function Footer() {
-  const { t } = useI18n();
+  const { t, language } = useI18n();
   return (
     <footer className="w-full border-neutral-200 dark:border-white/10 bg-background">
+      {/* Contact Section */}
+      <div id="contact" className="dark:bg-neutral-900">
+        <div className="max-w-4xl mx-auto px-6 text-center py-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100 mb-4 md:mb-6">
+            {t("footer.getInTouch.title")}
+          </h2>
+          <p className="text-lg text-neutral-600 dark:text-neutral-300 mb-4 md:mb-6">
+            {t("footer.getInTouch.description")}
+          </p>
+          <button
+            onClick={() => {
+              window.open(
+                language === "vi" ? CONTACT_FORM_VI : CONTACT_FORM_EN,
+                "_blank"
+              );
+            }}
+            className="group inline-flex items-center gap-2 rounded-full border border-neutral-900 dark:border-white px-6 py-3 text-base font-medium text-neutral-900 dark:text-white hover:bg-neutral-900 hover:text-white transition-colors cursor-pointer"
+          >
+            {t("footer.getInTouch.cta")}
+            <ArrowRight className="ml-1 transition-transform duration-200 group-hover:translate-x-1" />
+          </button>
+        </div>
+      </div>
+
       <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
-        <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-6">
-          <div className="text-center md:text-left">
+        <div className="flex flex-col md:flex-row items-start justify-between gap-6">
+          <div className="text-left">
             <img
               src={logo}
               alt={t("footer.companyName")}
-              className="h-12 w-auto mx-auto md:mx-0 mb-3"
+              className="h-12 w-auto mb-3"
             />
-            <h3 className="text-xl font-semibold text-neutral-900 dark:text-neutral-100">
+            <h3 className="text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
               {t("footer.companyName")}
             </h3>
-            <p className="mt-1 text-neutral-500 dark:text-neutral-400 text-sm">
+            <p className="mt-1 text-neutral-500 dark:text-neutral-400 ">
               {t("footer.description")}
             </p>
           </div>

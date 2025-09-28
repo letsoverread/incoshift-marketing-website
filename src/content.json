@@ -7,7 +7,7 @@
         "cta": "Explore"
       },
       "testimonials": {
-        "badge": "Testimonial",
+        "badge": "Testimonials",
         "title": "What clients say about Incoshift",
         "subtitle": "Real experiences from partners and clients when working with us."
       },
@@ -54,6 +54,7 @@
     },
     "aboutSection": {
       "badge": "About us",
+      "title": "End-to-end digital solutions",
       "description": "Incoshift delivers end-to-end digital solutions from websites to marketing, helping brands expand their customer base and build trust. We focus on clarity, practicality, and scalability to save your team's time.",
       "webPackage": {
         "title": "Website Package: Optimized Solution",
@@ -211,7 +212,7 @@
         "cta": "Khám phá"
       },
       "testimonials": {
-        "badge": "Testimonial",
+        "badge": "Testimonials",
         "title": "Khách hàng nói gì về Incoshift",
         "subtitle": "Trải nghiệm thực tế từ đối tác và khách hàng khi đồng hành cùng chúng tôi."
       },
@@ -258,6 +259,7 @@
     },
     "aboutSection": {
       "badge": "Về chúng tôi",
+      "title": "Giải pháp số toàn diện",
       "description": "Incoshift mang đến giải pháp số toàn diện từ website đến marketing, giúp thương hiệu mở rộng khách hàng và xây dựng uy tín. Chúng tôi chú trọng sự rõ ràng, dễ ứng dụng và khả năng mở rộng, để tiết kiệm thời gian cho doanh nghiệp.",
       "webPackage": {
         "title": "Gói dịch vụ Website: Giải pháp tối ưu",

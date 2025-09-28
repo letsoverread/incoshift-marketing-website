@@ -8,22 +8,22 @@ export function IncoShiftAboutUs() {
   const { language } = useI18n();
   const section = contentData[language].aboutSection;
   return (
-    <section className="py-12 md:py-16 ">
-      <div className="max-w-4xl  sm:text-center mx-auto px-5 sm:px-6 flex flex-col justify-center items-center gap-3 md:gap-4">
-        <div>
-          <div className="inline-flex items-center rounded-full border border-neutral-900 px-4 py-2 sm:px-6 sm:py-3 font-medium text-neutral-900 text-sm sm:text-base">
-            {section.badge}
-          </div>
+    <div>
+      <div className="max-w-4xl sm:text-center mx-auto px-5 sm:px-6 flex flex-col justify-center items-center gap-3 md:gap-4">
+        <div className="inline-flex items-center rounded-full border border-neutral-700 px-4 py-2 sm:px-5 font-medium text-neutral-700 text-sm sm:text-base">
+          {section.badge}
         </div>
-
-        <div className="sm:mt-1">
-          <p className="text-neutral-500 text-base md:text-lg leading-relaxed">
+        <div className="text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-neutral-800 dark:text-neutral-200">
+            {section.title}
+          </h2>
+          <p className="mt-2 sm:mt-4 text-neutral-500 text-base md:text-lg leading-relaxed">
             {section.description}
           </p>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-6 sm:mt-14">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 overflow-hidden rounded-3xl bg-white">
           <div className="relative h-56 sm:h-72 md:h-80 lg:h-[700px] lg:order-2">
             <img
@@ -33,7 +33,7 @@ export function IncoShiftAboutUs() {
             />
           </div>
 
-          <div className="py-4 lg:order-1">
+          <div className="lg:order-1">
             <h3 className="text-xl md:text-2xl font-bold text-neutral-700">
               {section.webPackage.title}
             </h3>
@@ -103,6 +103,6 @@ export function IncoShiftAboutUs() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

@@ -168,7 +168,7 @@ function StepCard({
           <div className="absolute -inset-[0.5px] rounded-2xl bg-gradient-to-r from-neutral-300/10 via-neutral-400/20 to-neutral-300/10 opacity-0 group-hover:opacity-70 transition-opacity duration-500" />
 
           {/* Glass card background */}
-          <div className="relative bg-neutral-50 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-neutral-200 overflow-hidden">
+          <div className="relative bg-white lg:bg-neutral-50 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-neutral-200 overflow-hidden">
             {/* Header row */}
             <div className="flex items-center gap-4 mb-4">
               <motion.div
@@ -230,20 +230,20 @@ export function IncoShiftHowItWorks() {
   const section = contentData[language].howItWorksSection;
 
   return (
-    <section className="py-12 md:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        {/* Layout: Sticky intro left, timeline right */}
-        <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
-          {/* Intro (sticky on desktop) */}
-          <div className="lg:col-span-1">
-            <div className="lg:sticky lg:top-24">
-              <div className="inline-flex items-center rounded-full border border-neutral-900 px-4 py-2 sm:px-6 sm:py-3 font-medium text-neutral-900 text-sm sm:text-base bg-white">
-                {section.badge}
-              </div>
-              <h2 className="mt-4 text-xl md:text-2xl font-bold text-neutral-800 dark:text-neutral-200">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      {/* Layout: Sticky intro left, timeline right */}
+      <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
+        {/* Intro (sticky on desktop) */}
+        <div className="lg:col-span-1 ">
+          <div className="lg:sticky lg:top-24 text-center lg:text-left">
+            <div className="inline-flex items-center rounded-full border border-neutral-700 px-4 py-2 sm:px-5 font-medium text-neutral-700 text-sm sm:text-base">
+              {section.badge}
+            </div>
+            <div className="text-center lg:text-left mt-3 md:mt-4">
+              <h2 className="text-2xl md:text-3xl font-bold text-neutral-800 dark:text-neutral-200">
                 {section.title}
               </h2>
-              <p className="mt-2 text-neutral-500 text-base md:text-lg leading-relaxed">
+              <p className="mt-2 sm:mt-4 text-neutral-500 text-base md:text-lg leading-relaxed">
                 {section.subtitle}
               </p>
               <div className="mt-6">
@@ -263,25 +263,25 @@ export function IncoShiftHowItWorks() {
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Timeline */}
-          <div className="lg:col-span-2">
-            <div className="relative pl-8">
-              {/* Vertical rail */}
-              <div className="absolute left-0 top-0 bottom-0 w-px bg-neutral-200" />
+        {/* Timeline */}
+        <div className="lg:col-span-2">
+          <div className="relative pl-0 lg:pl-8">
+            {/* Vertical rail */}
+            <div className="absolute left-0 top-0 bottom-0 w-px bg-neutral-200 hidden lg:block" />
 
-              <div className="space-y-10 md:space-y-14">
-                {section.steps.map((step, index) => (
-                  <div key={index} className="relative">
-                    {/* Step card with 3D effects */}
-                    <StepCard step={step} index={index} />
-                  </div>
-                ))}
-              </div>
+            <div className="space-y-6 md:space-y-14">
+              {section.steps.map((step, index) => (
+                <div key={index} className="relative">
+                  {/* Step card with 3D effects */}
+                  <StepCard step={step} index={index} />
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

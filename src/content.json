@@ -35,6 +35,12 @@
           "name": "Harry Nguyen",
           "designation": "Founder, Overread",
           "src": "/overread.png"
+        },
+        {
+          "quote": "Incoshift delivered a clean, fast website that matches our café's vibe and helps customers find us easily.",
+          "name": "Caferamo",
+          "designation": "Owner, Caferamo",
+          "src": "/caferamo.png"
         }
       ]
     },
@@ -240,6 +246,12 @@
           "name": "Harry Nguyen",
           "designation": "Founder, Overread",
           "src": "/overread.png"
+        },
+        {
+          "quote": "Incoshift đã xây dựng website nhanh, gọn, đúng tinh thần quán và giúp khách tìm đến dễ dàng.",
+          "name": "Caferamo",
+          "designation": "Chủ quán, Caferamo",
+          "src": "/caferamo.png"
         }
       ]
     },

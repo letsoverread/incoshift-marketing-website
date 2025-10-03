@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ArrowRight, ArrowUp } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowUp, Quote } from "lucide-react";
 
 function RunningBanner() {
   return (
@@ -57,16 +57,16 @@ export default function TennisPage() {
       {/* Running Banner */}
       <RunningBanner />
       <style>{`
-            @keyframes marquee {
-              0% { transform: translateX(0); }
-              100% { transform: translateX(-50%); }
-            }
-            .animate-marquee {
-              display: inline-flex;
-              width: 200%;
-              animation: marquee 18s linear infinite;
-            }
-          `}</style>
+              @keyframes marquee {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-50%); }
+              }
+              .animate-marquee {
+                display: inline-flex;
+                width: 200%;
+                animation: marquee 18s linear infinite;
+              }
+            `}</style>
       <main className="w-full h-full pt-20 pb-16 md:pt-24 md:pb-20">
         <div className="max-w-[1440px] w-full mx-auto px-6 md:px-8">
           {/* Title trên cùng */}
@@ -83,29 +83,31 @@ export default function TennisPage() {
             <img
               src="/tennis-hero.png"
               alt="Hình ảnh mở đầu Giải tennis Kết Nối Yêu Thương"
-              className="w-full rounded-3xl"
+              className="w-full h-120 sm:h-72  md:h-160 rounded-3xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-transparent" />
 
             {/* Content */}
-            <div className="absolute bottom-0 left-0 w-full p-4 sm:p-6 md:p-8">
+            <div className="absolute bottom-0 left-0 w-full p-5 sm:p-6 md:p-8">
               <div className="flex flex-col md:grid md:grid-cols-2 md:gap-6 md:items-end">
                 {/* Left (Title + Buttons) */}
                 <div className="text-white">
-                  <h2 className="text-2xl sm:text-4xl md:text-6xl font-bold leading-tight tracking-tight pb-4 sm:pb-6">
+                  <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight tracking-tight pb-5 sm:pb-6">
                     Tranh Cúp <br />
                     Bảo Vệ Thắng Lợi
                   </h2>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <Button className="flex items-center justify-between rounded-full h-11 px-5 sm:h-14 sm:px-8 bg-slate-900 text-white text-sm sm:text-lg md:text-xl hover:bg-white/10">
-                      <span>Xem album hình ảnh</span>
-                      <span className="ml-2 w-8 h-8 flex items-center justify-center bg-lime-500 text-slate-950 rounded-full rotate-40">
-                        <ArrowUp />
+                    <Button className="flex items-center justify-between rounded-full h-12 px-6 sm:h-14 sm:px-8 bg-slate-900 text-white text-base sm:text-lg md:text-xl hover:bg-slate-800 transition-all w-full sm:w-auto">
+                      <span className="flex-1 text-left">
+                        Xem album hình ảnh
+                      </span>
+                      <span className="ml-3 w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center bg-lime-500 text-slate-950 rounded-full rotate-45 flex-shrink-0">
+                        <ArrowUp className="w-4 h-4" />
                       </span>
                     </Button>
                     <Button
                       variant="outline"
-                      className="rounded-full h-11 px-5 text-sm sm:h-14 sm:px-8 sm:text-lg md:text-xl border-white/30 bg-white/10 text-white backdrop-blur-md shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:bg-white/15"
+                      className="rounded-full h-12 px-6 text-base sm:h-14 sm:px-8 sm:text-lg md:text-xl border-white/30 bg-white/10 text-white backdrop-blur-md shadow-lg hover:bg-white/20 transition-all"
                     >
                       Về Giải Đấu
                     </Button>
@@ -113,7 +115,7 @@ export default function TennisPage() {
                 </div>
 
                 {/* Right (Description) */}
-                <p className="text-white/90 text-sm sm:text-base leading-relaxed mt-4 md:mt-0 md:pl-6">
+                <p className="text-white/90 text-base sm:text-base leading-relaxed mt-5 md:mt-0 md:pl-6 max-w-xl">
                   Giải quần vợt Mở rộng Giải Tennis Kết Nối Yêu Thương là một
                   trong những sự kiện thể thao hấp dẫn, quy tụ nhiều tay vợt
                   hàng đầu trong và ngoài nước. Giải đấu được tổ chức thường
@@ -331,7 +333,7 @@ export default function TennisPage() {
               động viên và bảng xếp hạng chi tiết qua từng vòng đấu.
             </p>
 
-            <Button className="flex items-center gap-2 px-6 py-8 bg-slate-900 text-white font-medium rounded-full hover:bg-[#1A213A] transition mx-auto ">
+            <Button className="flex text-xl items-center gap-2 px-6 py-8 bg-slate-900 text-white font-medium rounded-full transition mx-auto ">
               Xem Ngay
               <span className="flex items-center justify-center w-6 h-6 bg-lime-400 rounded-full rotate-40">
                 <ArrowUp className="w-4 h-4 text-black" />
@@ -351,7 +353,7 @@ export default function TennisPage() {
           </div>
 
           {/* Cards layout */}
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6 items-stretch mt-20 ">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6 items-stretch ">
             {/* Champion - 40% on md+ */}
             <div className="relative overflow-hidden rounded-3xl md:col-span-5">
               <img
@@ -510,7 +512,7 @@ export default function TennisPage() {
                   />
                   <div className="absolute inset-0 bg-black/40" />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-white text-4xl font-extrabold tracking-tight">
+                    <div className="text-white text-6xl font-extrabold tracking-tight">
                       +120
                     </div>
                   </div>
@@ -519,6 +521,9 @@ export default function TennisPage() {
             </div>
           </div>
         </section>
+
+        {/* Companion */}
+
         <section className="max-w-[1440px] mx-auto px-6 md:px-8 mt-16 py-12 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-start">
             <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
@@ -540,6 +545,8 @@ export default function TennisPage() {
             />
           </div>
         </section>
+
+        {/* Testimonials Section */}
         <section className="max-w-[1440px] mx-auto px-6 md:px-8 mt-16 py-12 md:py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
             {/* Left Side */}
@@ -570,21 +577,69 @@ export default function TennisPage() {
               </div>
             </div>
 
-            {/* Right Side - 2 reviewers */}
+            {/* Right Side - Testimonial Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="overflow-hidden rounded-3xl">
-                <img
-                  src="/reviewer-1.png"
-                  alt="Reviewer 1"
-                  className="w-full h-[500px] object-cover rounded-3xl"
-                />
+              {/* Testimonial 1 */}
+              <div className="bg-sky-50 dark:bg-neutral-800 rounded-3xl p-8 relative">
+                {/* Avatar */}
+                <div className="flex justify-end items-center">
+                  <img
+                    src="/reviewer-1.png"
+                    alt="Reviewer 1"
+                    className="w-20 h-40 object-cover rounded-full"
+                  />
+                </div>
+
+                {/* Feedback */}
+                <div className="flex flex-col">
+                  <Quote className="text-lime-400  fill-current w-5  h-5 mt-10" />
+                  <p className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 leading-relaxed mt-2">
+                    Lorem ipsum dolor sit amet consectetur. Id orci vivamus
+                    sollicitudin pulvinar tincidunt nulla diam tellus ante.
+                  </p>
+                </div>
+
+                {/* Name + Subtitle */}
+                <div className="mt-6">
+                  <h4 className="font-semibold text-neutral-900 dark:text-neutral-100">
+                    Nguyễn Văn A
+                  </h4>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    Khách hàng
+                  </p>
+                </div>
               </div>
-              <div className="overflow-hidden rounded-3xl">
-                <img
-                  src="/reviewer-2.png"
-                  alt="Reviewer 2"
-                  className="w-full h-[500px] object-cover rounded-3xl"
-                />
+
+              {/* Testimonial 2 */}
+              <div className="bg-sky-50 dark:bg-neutral-800 rounded-3xl p-8 relative ">
+                {/* Avatar */}
+                <div className="flex justify-end items-center">
+                  <img
+                    src="/reviewer-2.png"
+                    alt="Reviewer 2"
+                    className="w-20 h-40 object-cover rounded-full"
+                  />
+                </div>
+
+                {/* Feedback */}
+
+                <div className="flex flex-col">
+                  <Quote className="text-lime-400  fill-current w-5  h-5 mt-10" />
+                  <p className="text-lg font-semibold text-neutral-900 dark:text-neutral-100 leading-relaxed mt-2">
+                    Lorem ipsum dolor sit amet consectetur. Id orci vivamus
+                    sollicitudin pulvinar tincidunt nulla diam tellus ante.
+                  </p>
+                </div>
+
+                {/* Name + Subtitle */}
+                <div className="mt-6">
+                  <h4 className="font-semibold text-neutral-900 dark:text-neutral-100">
+                    Trần Thị B
+                  </h4>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    Đối tác
+                  </p>
+                </div>
               </div>
             </div>
           </div>

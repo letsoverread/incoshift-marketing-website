@@ -79,12 +79,21 @@ export default function TennisPage() {
         {/* Hero Section */}
         <div className="max-w-[1440px] mx-auto px-6 md:px-8 mt-8 sm:mt-10">
           <div className="relative rounded-3xl overflow-hidden">
-            {/* Background Image */}
+            {/* Background Image (responsive) */}
+            {/* Mobile version */}
+            <img
+              src="/tennis-mobile.png"
+              alt="Hình ảnh mở đầu Giải tennis Kết Nối Yêu Thương (Mobile)"
+              className="block sm:hidden w-full h-160 object-cover rounded-3xl"
+            />
+            {/* Desktop / Tablet version */}
             <img
               src="/tennis-hero.png"
               alt="Hình ảnh mở đầu Giải tennis Kết Nối Yêu Thương"
-              className="w-full h-120 sm:h-72  md:h-160 rounded-3xl"
+              className="hidden sm:block w-full h-120 sm:h-72 md:h-160 object-cover rounded-3xl"
             />
+
+            {/* Gradient overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/25 to-transparent" />
 
             {/* Content */}
@@ -119,7 +128,7 @@ export default function TennisPage() {
                   Giải quần vợt Mở rộng Giải Tennis Kết Nối Yêu Thương là một
                   trong những sự kiện thể thao hấp dẫn, quy tụ nhiều tay vợt
                   hàng đầu trong và ngoài nước. Giải đấu được tổ chức thường
-                  niên
+                  niên.
                 </p>
               </div>
             </div>
@@ -142,11 +151,17 @@ export default function TennisPage() {
           {/* Content row */}
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-start md:items-stretch">
             {/* Left: vertical image with overlay text */}
+
             <div className="relative overflow-hidden rounded-3xl h-full md:h-[800px]">
               <img
                 src="/about-1.jpg"
                 alt="Khoảnh khắc thi đấu tại giải - ảnh dọc"
                 className="w-full h-full object-cover rounded-3xl"
+              />
+              <img
+                src="/tennis-mobile.png"
+                alt="Hình ảnh mở đầu Giải tennis Kết Nối Yêu Thương (Mobile)"
+                className="block sm:hidden w-full h-80 object-cover rounded-3xl"
               />
               <div className="absolute inset-x-0 bottom-0 p-5 sm:p-10">
                 <p className="text-white/95 text-base sm:text-xl leading-relaxed">
@@ -539,9 +554,14 @@ export default function TennisPage() {
           </div>
           <div className="overflow-hidden rounded-3xl mt-10">
             <img
+              src="/tai-tro-2.png"
+              alt="Đơn Vị Đồng Hành Banner (Mobile)"
+              className="block sm:hidden w-full object-cover rounded-3xl"
+            />
+            <img
               src="/tai-tro.png"
               alt="Đơn Vị Đồng Hành Banner"
-              className="w-full object-cover rounded-3xl"
+              className="hidden sm:block w-full object-cover rounded-3xl"
             />
           </div>
         </section>
